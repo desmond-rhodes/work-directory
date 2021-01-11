@@ -1,1 +1,5 @@
 Hot switch between working directories.
+
+Install Guide
+Bash
+	Source work-directory script, or copy the content to your ~/.bashrc
