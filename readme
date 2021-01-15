@@ -2,4 +2,6 @@ Hot switch between working directories.
 
 Install Guide
 Bash
-	Source work-directory script, or copy the content to your ~/.bashrc
+	Source work-directory.bash script, or copy function to bash startup script.
+ZSH
+	Source work-directory.zsh script, or copy function to zsh startup script.
