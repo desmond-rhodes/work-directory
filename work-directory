@@ -39,7 +39,7 @@
 		shopt -s nullglob
 		for file in "$save"/*; do
 			printf '    %s ---> %s' "${file##*/_}" "$(cat $file)"
-			[ ! -d $(cat $file) ] && printf ' [invalid]'
+			[ ! -d "$(cat $file)" ] && printf ' [invalid]'
 			printf '\n'
 		done
 	exit; fi
